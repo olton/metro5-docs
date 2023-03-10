@@ -9,6 +9,7 @@ const config = {
   title: 'Metro5 Documentation',
   tagline: 'Welcome to Metro5 Docs portal!',
   favicon: 'img/favicon.ico',
+  staticDirectories: ['static'],
 
   // Set the production url of your site here
   url: 'https://www.metroui.dev',
@@ -85,7 +86,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+      googleAdsense: {
+        dataAdClient: 'pub-1632668592742327',
+      },
     }),
+  plugins: ['docusaurus-plugin-google-adsense'],
 };
 
 module.exports = config;
