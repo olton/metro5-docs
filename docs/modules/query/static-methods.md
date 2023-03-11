@@ -5,6 +5,8 @@ sidebar_label: Static Methods
 
 # Query Static Methods
 
+Query container a lot of useful static methods to facilitate interaction with various objects:
+
 | Method                                      | Preparing                                    | Description                                                            |
 |---------------------------------------------|----------------------------------------------|------------------------------------------------------------------------|
 | `$.dataset`                                 |                                              | access to internal dataset                                             |
@@ -43,4 +45,7 @@ sidebar_label: Static Methods
 | `$.coalesce(val, ifNullValue, ...)`         |                                              | function return first not null argument                                |
 | `$.serialize(form or object)`               |                                              | function for serializing form or object                                |
 | `$.script(val)`                             |                                              | inject javasctip into page                                             |
+| `$.global()`                                |                                              | Setup global to $                                                      |
+| `$.noConflict()`                            |                                              | Setup global to $                                                      |
+
 

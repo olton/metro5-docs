@@ -57,10 +57,13 @@ const config = {
       // Replace with your project's social card
       image: 'img/metro5-docs-social-card.jpg',
       navbar: {
+        hideOnScroll: false,
         title: 'Metro5',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
+          href: 'https://test.korzh.com/metroui',
+          target: '_self',
         },
         items: [
           {
@@ -69,7 +72,6 @@ const config = {
             position: 'left',
             label: 'Documentation',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/olton/metro5-docs',
             label: 'GitHub',
