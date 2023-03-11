@@ -1,0 +1,64 @@
+---
+sidebar_position: 2
+sidebar_label: Query Module
+---
+
+# Query Module
+
+This module is designed to manipulate the DOM and is similar to jQuery with similar methods.
+
+## Target
+Query Module is created as a replacement for jQuery, it has methods similar in name and action. The purpose of creating Query is to remove dependence on third-party libraries.
+
+## Definition
+The Metro 5 core registers Query as a global object:
+
+```
+globalThis.Query - Query Class
+globalThis.query - function-initializator
+globalThis.$ - short version of initializetor
+```
+
+The user does not need to use the class, all calls can be made using the initializer function.
+```javascript
+const element = $("#element_id")
+const element = $(".element_class")
+```
+
+Query contains Methods and Static Methods.
+
+## Static methods
+`$.dataset`||access to internal dataset
+`$.matches`||wrapper for `matches` function
+`$.html`|$("html")|access to `html` element
+`$.doctype`|$("doctype")|access to `doctype` element
+`$.head`|$("head")|access to `head` element
+`$.body`|$("body")|access to `body` element
+`$.document`|$("document")|access to `document` element
+`$.window`|$("window")|access to `window` element
+`$.meta(name)`||access to `meta` elements
+`$.metaBy(name)`||access to `meta` element
+`$.charset(val)`||access to `charset`
+`$.each(context, callback)`||function to iteration on array or object
+`$.bind(function, context)`||change context for function
+`$.proxy(target, handler)`||create proxy element
+`$.device`||return `true` if this is mobile device
+`$.isLocalhost`||return `true` if current host is localhost
+`$.isPrivateAddress`||return `true` if value is private IP address
+`$.touchable`||return `true` if current device is touchable
+`$.script`||return `true` if current host is localhost
+`$.noop`
+`$.noop_true`
+`$.noop_false`
+`$.exec`
+`$.dark`
+`$.isVisible`
+`$.isHidden`
+`$.inViewport`
+`$.isSelector`
+`$.iif`
+`$.nvl`
+`$.coalesce`
+`$.serialize`
+
+## Methods
