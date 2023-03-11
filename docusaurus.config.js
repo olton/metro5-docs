@@ -87,7 +87,7 @@ const config = {
         darkTheme: darkCodeTheme,
       },
       googleAdsense: {
-        dataAdClient: 'pub-1632668592742327',
+        dataAdClient: 'ca-pub-1632668592742327',
       },
     }),
   plugins: ['docusaurus-plugin-google-adsense'],
