@@ -58,11 +58,11 @@ const config = {
       image: 'img/metro5-docs-social-card.jpg',
       navbar: {
         hideOnScroll: false,
-        title: 'Metro5',
+        title: '',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.png',
-          href: 'https://test.korzh.com/metroui',
+          href: '/metroui/docs',
           target: '_self',
         },
         items: [
@@ -70,12 +70,26 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Documentation',
+            label: 'Tutorial',
+            className: "navbar__item navbar__link"
+          },
+          {
+            href: 'https://test.korzh.com',
+            position: 'left',
+            target: "_self",
+            label: "Korzh.com"
+          },
+          {
+            href: 'https://test.korzh.com/metroui',
+            position: 'left',
+            target: "_self",
+            label: "Metro UI"
           },
           {
             href: 'https://github.com/olton/metro5-docs',
-            label: 'GitHub',
             position: 'right',
+            className: 'header-github-link',
+            target: "_self"
           },
         ],
       },
