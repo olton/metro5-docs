@@ -30,4 +30,4 @@ jobs:
           external_repository: KorzhCom/korzhcom.github.io
           publish_branch: main  # default: gh-pages
           publish_dir: ./build
-          destination_dir: website/easy-report-starter-kit/docs
+          destination_dir: website/metroui/docs
