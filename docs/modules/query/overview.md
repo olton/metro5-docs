@@ -11,7 +11,7 @@ This module is designed to manipulate the DOM and is similar to jQuery with simi
 Query Module is created as a replacement for jQuery, it has methods similar in name and action. The purpose of creating Query is to remove dependence on third-party libraries.
 
 ## Definition
-The Metro 5 core registers Query as a global object:
+The Metro UI core registers Query as a global object:
 
 ```
 globalThis.Query - Query Class

@@ -17,7 +17,7 @@ win.on("resize", function(e){
 })
 ```
 
-## Init
+### Init
 
 | Method   |  Description               |
 |----------|----------------------------|
@@ -25,7 +25,7 @@ win.on("resize", function(e){
 
 > You will not have to use this method yourself. It is used automatically when an instance is created.
 
-## Attributes
+### Attributes
 Methods are designed to work with element attributes.
 
 | Method                    | Description                                                                     |
@@ -37,7 +37,7 @@ Methods are designed to work with element attributes.
 | `toggleAttr(name, value)` | Toggle attribute with specified name and value                                  |
  | `id(value)`               | Set or get value for element ID attribute                                       | 
 
-## Classes
+### Classes
 Methods are designed to work with element classes.
 
 | Method                    | Description                                     |
@@ -54,24 +54,24 @@ Methods are designed to work with element classes.
 | `removeClassBy(val)`      | Remove classes by mask                          |
 
 
-## Contains
+### Contains
 
-## CSS
+### CSS
 
-## Events
+### Events
 
-## Manipulations
+### Manipulations
 
-## Position
+### Position
 
-## Properties
+### Properties
 
-## Scripts
+### Scripts
 
-## Scroll
+### Scroll
 
-## Serialize
+### Serialize
 
-## Size
+### Size
 
-## Visibility
+### Visibility

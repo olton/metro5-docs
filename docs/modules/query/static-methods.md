@@ -7,7 +7,7 @@ sidebar_label: Static Methods
 
 Query container a lot of useful static methods to facilitate interaction with various objects:
 
-## Utils
+### Utils
 
 | Method                                      |  Description                                                            |
 |---------------------------------------------|-------------------------------------------------------------------------|
@@ -24,7 +24,7 @@ Query container a lot of useful static methods to facilitate interaction with va
 | `$.global()`                                |  Setup global to $                                                      |
 | `$.noConflict()`                            |  Setup global to $                                                      |
 
-## Document elements
+### Document elements
 
 | Method                                      | Preparing                                    | Description                                                            |
 |---------------------------------------------|----------------------------------------------|------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ Query container a lot of useful static methods to facilitate interaction with va
 | `$.metaBy(name)`                            | `!name ? $.meta : $("meta[$name]")`          | access to `meta` element                                               |
 | `$.charset(val)`                            |                                              | access to `charset` or set new value                                   |
 
-## Function
+### Function
 
 | Method                                      |  Description                                                            |
 |---------------------------------------------|-------------------------------------------------------------------------|
@@ -50,7 +50,7 @@ Query container a lot of useful static methods to facilitate interaction with va
 | `$.noop_false`                              |  empty function, return `false`                                         |
 | `$.exec(context, callback)`                 |  execute any type of code                                               |
 
-## Device
+### Device
 
 | Method                                      |  Description                                                            |
 |---------------------------------------------|-------------------------------------------------------------------------|
@@ -61,7 +61,7 @@ Query container a lot of useful static methods to facilitate interaction with va
 | `$.privateAddress()`                        |  return `true` if value is private IP address                           |
 | `$.touchable`                               |  return `true` if current device is touchable                           |
 
-## Element
+### Element
 
 | Method                                      |  Description                                                            |
 |---------------------------------------------|-------------------------------------------------------------------------|

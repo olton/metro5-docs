@@ -5,5 +5,5 @@ sidebar_label: Intro to Components
 
 # Introduction to Components
 
-Welcome to Metro5 documentation portal.
+Welcome to Metro UI documentation portal.
 

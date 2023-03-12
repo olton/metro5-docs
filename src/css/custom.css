@@ -52,3 +52,16 @@ a[target=_self] svg {
   color: #000000;
   text-decoration: none;
 }
+
+.table-of-contents__link--active {
+  position: relative;
+}
+.table-of-contents__link--active::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  height: 22px;
+  width: 4px;
+  background: #923cfd;
+}
