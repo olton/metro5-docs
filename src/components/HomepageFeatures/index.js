@@ -8,7 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/Code_Development.svg').default,
     description: (
       <>
-        Metro5 was designed from the ground up to be easily installed and
+        Metro UI was designed from the ground up to be easily installed and
         used to get your website up and running quickly.
       </>
     ),
@@ -18,7 +18,7 @@ const FeatureList = [
     Svg: require('@site/static/img/Web_Development.svg').default,
     description: (
       <>
-          Metro5 is designed so that you can concentrate on business logic, create interactive pages even without knowledge of JavaScript.
+          Metro UI is designed so that you can concentrate on business logic, create interactive pages even without knowledge of JavaScript.
       </>
     ),
   },
@@ -27,7 +27,7 @@ const FeatureList = [
     Svg: require('@site/static/img/Javascript.svg').default,
     description: (
       <>
-          Metro 5 is written using all the features of JavaScript, has no dependencies on other libraries, is very fast and easy to use.
+          Metro UI is written using all the features of JavaScript, has no dependencies on other libraries, is very fast and easy to use.
       </>
     ),
   },

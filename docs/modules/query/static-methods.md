@@ -70,5 +70,14 @@ Query container a lot of useful static methods to facilitate interaction with va
 | `$.inViewport(el)`                          |  return `true` if element in `viewport`                                 |
 | `$.isSelector(val)`                         |  return `true` if value is valid selector                               |
 
+### Events
+
+| Method                          | Description |
+|---------------------------------|-------------|
+| `$.ready(func, options)`        |             |
+| `$.load(func, options)`         |             |
+| `$.unload(func, options)`       |             |
+| `$.beforeunload(func, options)` |             |
+
 
 

@@ -6,8 +6,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Metro5 Documentation',
-  tagline: 'Welcome to Metro5 Docs portal!',
+  title: 'Metro UI Documentation',
+  tagline: 'Welcome to Metro UI Docs portal!',
   favicon: 'img/favicon.ico',
   staticDirectories: ['static'],
 
@@ -86,10 +86,16 @@ const config = {
             label: "Metro UI"
           },
           {
+            href: 'https://pimenov.com.ua',
+            position: 'right',
+            target: "_blank",
+            html: "<img alt='Metro 5 Author' src='/metroui/docs/img/author.jpg' style='height: 24px; margin-top: 8px; border-radius: 50%;' />"
+          },
+          {
             href: 'https://github.com/olton/metro5-docs',
             position: 'right',
             className: 'header-github-link',
-            target: "_self"
+            target: "_blank"
           },
         ],
       },
