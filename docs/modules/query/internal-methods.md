@@ -132,16 +132,90 @@ Methods are designed to work with element classes.
 
 ### Manipulations
 
+| Method                              | Description                          |
+|-------------------------------------|--------------------------------------|
+| `appendText(text)`                  | Append text to element innerHTML     |
+| `prependText(text)`                 | Prepend text to element innerHTML    |
+| `append(...elements)`               | Append elements                      |
+| `appendTo(...elements)`             | Append elements to element(s)        |
+| `prepend(...elements)`              | Prepend elements                     |
+| `prependTo(...elements)`            | Prepend elements to element(s)       |
+| `insertBefore(...elements)`         | Append elements to element(s)        |
+| `insertAfter(...elements)`          | Append elements to element(s)        |
+| `after(html)`                       | Append html to each elements in set  |
+| `before(html)`                      | Prepend html to each elements in set |
+| `clone(deep=false, withData=false)` | Append elements to element(s)        |
+| `import(deep=false)`                |                                      |
+| `adopt()`                           |                                      |
+| `remove(selector)`                  | Remove elements from set             |
+| `clear()`                           | Clear innerHTML                      |
+| `wrap()`                            |                                      |
+| `wrapAll()`                         |                                      |
+| `wrapInner()`                       |                                      |
+
 ### Position
+
+| Method                      | Description                      |
+|-----------------------------|----------------------------------|
+| `offset(text)`              | Get element offset               |
+| `position(margin=false)`    | Get element position             |
+| `left(value, margin=false)` | Get or set element left position |
+| `coord()`                   | Get element bounding client rect |
+| `pos()`                     | Get element positions            |
 
 ### Properties
 
+| Method              | Description                      |
+|---------------------|----------------------------------|
+| `prop(name, value)` | Get or set element property      |
+| `val(value)`        | Get or set element value         |
+| `html(value)`       | Get or set element innerHTML     |
+| `outerHTML(value)`  | Get element outerHTML            |
+| `text(value)`       | Get or element TextContent       |
+| `innerText(value)`  | Get or element innerText         |
+| `innerText(value)`  | Get or element innerText         |
+| `empty()`           | Empty element value or innerHTML |
+
 ### Scripts
+
+| Method         | Description             |
+|----------------|-------------------------|
+| `script(html)` | Inject script into page |
 
 ### Scroll
 
+| Method            | Description                                         |
+|-------------------|-----------------------------------------------------|
+| `scrollTop(val)`  | Get or set scrollTop or scrollY for window element  |
+| `scrollLeft(val)` | Get or set scrollLeft or scrollX for window element |
+
 ### Serialize
+
+| Method                | Description            |
+|-----------------------|------------------------|
+| `serialize(joinWith)` | Serialize form element |
 
 ### Size
 
+| Method             | Description                     |
+|--------------------|---------------------------------|
+| `border(pseudo)`   | Get border values               |
+| `height(val)`      | Get or set element height       |
+| `width(val)`       | Get or set element width        |
+| `outerWidth(val)`  | Get or set element outer width  |
+| `outerHeight(val)` | Get or set element outer height |
+| `padding(pseudo)`  | Get element paddings            |
+| `margin(pseudo)`   | Get element margins             |
+
 ### Visibility
+
+| Method                    | Description                          |
+|---------------------------|--------------------------------------|
+| `inViewport()`            | Check if element in viewport         |
+| `isVisible()`             | Check if element is visible          |
+| `isHidden()`              | Check if element is hidden           |
+| `hide(callback)`          | Hide element(s)                      |
+| `show(callback)`          | Show element(s)                      |
+| `visible(mode, callback)` | Set visible or un-visible element(s) |
+| `toggle(callback)`        | Toggle hide/show                     |
+| `hidden(mode, callback)`  | Set hidden or un-hidden element(s)   |

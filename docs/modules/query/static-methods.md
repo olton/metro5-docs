@@ -40,15 +40,16 @@ Query container a lot of useful static methods to facilitate interaction with va
 
 ### Function
 
-| Method                                      |  Description                                                            |
-|---------------------------------------------|-------------------------------------------------------------------------|
-| `$.each(context, callback)`                 |  function to iteration on array or object                               |
-| `$.bind(function, context)`                 |  change context for function                                            |
-| `$.proxy(target, handler)`                  |  create proxy element                                                   |
-| `$.noop`                                    |  empty function                                                         |
-| `$.noop_true`                               |  empty function, return `true`                                          |
-| `$.noop_false`                              |  empty function, return `false`                                         |
-| `$.exec(context, callback)`                 |  execute any type of code                                               |
+| Method                       | Description                              |
+|------------------------------|------------------------------------------|
+| `$.each(context, callback)`  | function to iteration on array or object |
+| `$.bind(function, context)`  | change context for function              |
+| `$.proxy(target, handler)`   | create proxy element                     |
+| `$.noop`                     | empty function                           |
+| `$.noop_true`                | empty function, return `true`            |
+| `$.noop_false`               | empty function, return `false`           |
+| `$.exec(context, callback)`  | execute any type of code                 |
+| `$.serialize(obj, joinWith)` | Serialize object or form                 |
 
 ### Device
 
@@ -78,6 +79,4 @@ Query container a lot of useful static methods to facilitate interaction with va
 | `$.load(func, options)`         |             |
 | `$.unload(func, options)`       |             |
 | `$.beforeunload(func, options)` |             |
-
-
 
